@@ -4,6 +4,11 @@ Handheld, battery/USB-powered RF scanning device with multiple antennas, paralle
 
 ## Repository map
 
+- `config/app.config` - default device configuration (JSON)
+- `firmware/` - RTOS-based firmware source
+- `hardware/` - schematics, PCB, BOM, mechanical
+- `tools/` - scripts and utilities
+- `assets/` - images and UI assets
 - [`docs/vision.md`](docs/vision.md) - product vision, goals, and target users
 - [`docs/requirements.md`](docs/requirements.md) - functional/non-functional requirements
 - [`docs/hw_specs.md`](docs/hw_specs.md) - hardware architecture and specs
@@ -13,6 +18,8 @@ Handheld, battery/USB-powered RF scanning device with multiple antennas, paralle
 - [`docs/milestones.md`](docs/milestones.md) - milestone log and progress tracking
 - [`docs/tasks.md`](docs/tasks.md) - task tracker (by subsystem)
 - [`docs/open_questions.md`](docs/open_questions.md) - unresolved decisions and risks
+- [`docs/app_config.md`](docs/app_config.md) - app.config schema and example
+- [`docs/project_structure.md`](docs/project_structure.md) - current and planned repo layout
 - [`docs/todos.md`](docs/todos.md) - short-term actionable list
 
 ## Next steps

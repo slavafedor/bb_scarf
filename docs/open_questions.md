@@ -9,6 +9,12 @@
 - Display: 3-4 inches, 480x320 (or similar), SPI or parallel; start with a dev kit that includes the display.
 - UI: three spectrum views + three waterfalls; list of top 3 frequency bands/buckets per range.
 - Battery: 8 hours target; LiPo with USB/external power support; size up to 75x100 mm, weight up to 400 g.
+- System scope: v0.1 is single-MCU standalone firmware; host app planned later for visualization/config via device API.
+- DSP library: CMSIS-DSP (best performance on STM32).
+- Data products: store both raw captures and aggregated bucket power (for future API use).
+- UI tech: TouchGFX if it supports fast updates from a designated buffer; otherwise custom framebuffer.
+- Logging: microSD if present; fallback to internal flash with Fail/Error only. Log format (binary/CSV/JSON) configurable via JSON app.config.
+- app.config location: stored on microSD and internal flash; if microSD missing or app.config absent on microSD, use internal flash default.
 
 ## Product
 
